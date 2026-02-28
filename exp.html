@@ -4,7 +4,7 @@
 <title>🎉 Happy Birthday 🎂</title>
 <link rel="stylesheet" href="woo.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <style>
 
 
@@ -59,8 +59,11 @@ button:hover {
 }
 
 .birthday-text {
-  margin-top: 150px;
-  font-size: 25px;
+  margin-top: 120px;
+  font-family: 'pacifico', cursive;
+  font-size: 20px;              /* smaller size */
+  padding: 0 20px;              /* spacing for mobile */
+  line-height: 1.5;
   animation: glow 2s infinite alternate;
 }
 
@@ -87,6 +90,15 @@ body::before {
   inset: 0;
   background: rgba(202, 119, 63, 0.6);
   z-index: -1;
+}
+  @media (max-width: 600px) {
+  .birthday-text {
+    font-size: 17px;
+  }
+
+  #birthdayReveal h2 {
+    font-size: 15px;
+  }
 }
 </style>
 </head>
@@ -312,6 +324,7 @@ function scratch(e) {
 
 </body>
 </html>
+
 
 
 
