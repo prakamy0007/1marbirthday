@@ -6,7 +6,7 @@ body {
   background: radial-gradient(circle at center, #0f0c29, #000000);
   color: #fff;
   overflow-x: hidden;
-  background-image:url(1.jpeg);
+  background-image:url("assests/1.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -150,4 +150,5 @@ position: relative;
 .shake {
   animation: screenShake 0.4s ease-in-out;
 }
+
 
